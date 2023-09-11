@@ -1,0 +1,18 @@
+const menuHamburger = document.querySelector(".burger-menu")
+const navLinks = document.querySelector(".nav-links")
+const firstLineAnimation = document.querySelector(".first-line")
+const middleLineAnimation = document.querySelector(".middle-line")
+const lastLineAnimation = document.querySelector(".last-line")
+const arrowMobile = document.querySelector(".arrow-mobile")
+menuHamburger.addEventListener('click', ()=> {
+    navLinks.classList.toggle('mobile-menu')
+    firstLineAnimation.classList.toggle('first-line-animation')
+    middleLineAnimation.classList.toggle('middle-line-animation')
+    lastLineAnimation.classList.toggle('last-line-animation')
+})
+arrowMobile.addEventListener('click', ()=> {
+    navLinks.classList.toggle('mobile-menu')
+    firstLineAnimation.classList.toggle('first-line-animation')
+    middleLineAnimation.classList.toggle('middle-line-animation')
+    lastLineAnimation.classList.toggle('last-line-animation')
+})
